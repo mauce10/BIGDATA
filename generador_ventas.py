@@ -1,12 +1,5 @@
 """
 generador_ventas.py
-
-Genera un archivo CSV con datos de ventas ficticias para practicar
-procesamiento de datos con Python, Hadoop y Apache Spark.
-
-Uso:
-    python generador_ventas.py
-    python generador_ventas.py --registros 1000 --salida ventas.csv
 """
 
 import argparse
