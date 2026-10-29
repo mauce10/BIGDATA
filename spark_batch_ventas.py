@@ -1,16 +1,7 @@
 """
 spark_batch_ventas.py
 
-Lee un CSV de ventas, limpia los datos y genera resultados usando PySpark.
 
-Ejecucion local:
-    spark-submit spark_batch_ventas.py ventas.csv resultados_spark
-
-Si el CSV esta en HDFS, se puede indicar su ruta:
-    spark-submit spark_batch_ventas.py hdfs:///datos/ventas.csv hdfs:///resultados/ventas
-
-Requisito:
-    Tener Apache Spark instalado y PySpark disponible en el entorno.
 """
 
 import sys
